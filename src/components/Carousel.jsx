@@ -136,14 +136,14 @@ const Carousel = ({slides = [], effect = 'fade', autoSlide = false, slideDuratio
                     <button className={'w-full h-full absolute left-0 top-0 right-0 z-[1000]'}
                             onTouchStart={onTouchStart} onTouchMove={onTouchMove} onTouchEnd={onTouchEnd}></button>
                 </div>
-                <div className={'w-[25%] h-full absolute left-0 top-0 z-[1500]'}>
+                <div className={'w-[20%] h-full absolute left-0 top-0 z-[1500]'}>
                     <button className={'w-full h-full flex items-center justify-center absolute left-0 top-0 z-[1500]'}
                             onClick={previousSlide}>
                         <span
                             className={`w-[1rem] h-[1rem] absolute left-[40%] z-[1500]  border-b-[0.2rem] border-l-[0.2rem] border-black rotate-45 ${animation && delay && indicator === 'previousSlide' ? 'opacity-[.96]' : 'opacity-[.36]'} transition-all duration-500 ease-in-out`}></span>
                     </button>
                 </div>
-                <div className={'w-[25%] h-full absolute top-0 right-0 z-[1500]'}>
+                <div className={'w-[20%] h-full absolute top-0 right-0 z-[1500]'}>
                     <button
                         className={'w-full h-full flex items-center justify-center absolute left-0 right-0 z-[1500]'}
                         onClick={nextSlide}>
