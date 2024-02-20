@@ -48,7 +48,7 @@ const TypingEffect = ({titles = [], typing = 150, backSpace = 150}) => {
 
     return (
         <>
-            <h1 className={'text-center text-3xl'}>{title}</h1>
+            <h1 className={''}>{title}</h1>
         </>
     );
 };
